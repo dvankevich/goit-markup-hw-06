@@ -30,6 +30,7 @@ body {
     background-color: #FFFFFF;
 }
 
+/* --- Header --- */
 /* LOGO */
 .logo-link {
     font-family: "Raleway", sans-serif;
@@ -43,4 +44,46 @@ body {
 
 .logo-part-two {
     color: #2e2f42;
+}
+
+/* navigation menu */
+.menu-list {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.menu-list-link {
+    color: #2e2f42;
+}
+
+.menu-list-link:hover {
+    color: #404bbf;
+}
+
+.menu-list-link:active {
+    color: #404bbf;
+}
+
+/* address */
+.address-class {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+}
+
+.address-link {
+    color: #434455;
+}
+
+.address-link:hover {
+    color: #404bbf;
+}
+
+.address-link:active {
+    color: #404bbf;
 }
