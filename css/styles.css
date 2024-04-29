@@ -122,3 +122,34 @@ body {
 .s-one-button:focus {
   background-color: #404bbf;
 }
+
+/* --- section 2 --- */
+.s-two-list {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.s-two-list-item {
+  color: #434455;
+}
+
+.s-two-list-item-header {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  color: #2e2f42;
+}
+
+.s-two-list-item-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: #434455;
+}
