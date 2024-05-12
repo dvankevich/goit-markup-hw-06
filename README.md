@@ -1,10 +1,10 @@
-# goit-markup-hw-02
+# goit-markup-hw-03
 
-[https://dvankevich.github.io/goit-markup-hw-02/](https://dvankevich.github.io/goit-markup-hw-02/)
+[https://dvankevich.github.io/goit-markup-hw-03/](https://dvankevich.github.io/goit-markup-hw-03/)
 
 ## Завдання
 
-- [x] Створи репозиторій goit-markup-hw-02.
+- [x] Створи репозиторій goit-markup-hw-03.
 - [x] Склонуй створений репозиторій і скопіюй в нього файли попередньої роботи.
-- [ ] Виконай HTML-розмітку макета сторінки домашнього завдання #2.
+- [ ] Додай стилі для геометрії (ширину, відступи, поля і рамки) і позиціонування контенту за допомогою Flexbox для сторінок макета домашнього завдання #3.
 - [x] Налаштуй GitHub Pages і додай посилання на живу сторінку в секцію About GitHub-репозиторія.
