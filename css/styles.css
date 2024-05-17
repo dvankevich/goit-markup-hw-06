@@ -16,6 +16,22 @@ img {
   display: block;
 }
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 /* --- Header --- */
 /* LOGO */
 .logo-link {
@@ -27,6 +43,7 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  margin-right: 76px;
 }
 
 .logo-part-two {
@@ -39,11 +56,14 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: flex;
+  gap: 40px;
 }
 
 .menu-list-link {
   color: #2e2f42;
   text-decoration: none;
+  padding: 24px 0;
 }
 
 .menu-list-link:hover {
@@ -61,6 +81,12 @@ img {
   font-style: normal;
   line-height: 150%;
   letter-spacing: 0.02em;
+
+}
+
+.address-list {
+  display: flex;
+  gap: 40px;
 }
 
 .address-link {
