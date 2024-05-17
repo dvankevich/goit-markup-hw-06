@@ -32,6 +32,11 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  display: flex;
+}
+
+.top-line {
+  display: flex;
 }
 
 .header-navigation {
@@ -40,7 +45,6 @@ img {
 }
 
 .container {
-  // display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
