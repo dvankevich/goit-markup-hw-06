@@ -161,11 +161,22 @@ img {
 }
 
 /* --- section 2 --- */
+.s-two {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.s-two-list {
+  display: flex;
+  gap: 24px;
+}
+
 .s-two-list-item {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .s-two-list-item-header {
@@ -174,6 +185,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .s-two-list-item-text {
