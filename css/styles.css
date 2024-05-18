@@ -198,6 +198,8 @@ img {
 /* --- section 3 --- */
 .s-three {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .s-three-header {
@@ -208,10 +210,22 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.s-three-list {
+  display: flex;
+  gap: 24px;
 }
 
 .s-three-list-item {
   background-color: #ffffff;
+  flex-basis: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.s-three-card-content {
+  padding: 32px 0;
 }
 
 .s-three-list-item-header {
@@ -221,6 +235,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .s-three-list-item-text {
