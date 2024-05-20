@@ -4,7 +4,17 @@ body {
   background-color: #ffffff;
 }
 
-/* Обнулення декоративних властивостей для списків */
+/* Обнулення значень по замовчанню */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin 0;
+}
+
 ul,
 ol {
   list-style: none;
@@ -12,6 +22,12 @@ ol {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ------------------------------- */
 img {
   display: block;
 }
@@ -37,6 +53,7 @@ img {
 
 .top-line {
   display: flex;
+  align-items: center;
 }
 
 .header-navigation {
@@ -75,13 +92,15 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   display: flex;
+  padding: 24px 0;
   gap: 40px;
 }
 
 .menu-list-link {
   color: #2e2f42;
   text-decoration: none;
-  padding: 24px 0;
+
+  display: block;
 }
 
 .menu-list-link:hover {
@@ -106,6 +125,7 @@ img {
 .address-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .address-link {
@@ -326,7 +346,6 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  margin-right: 76px;
   margin-bottom: 16px;
   display: inline-block;
 }
