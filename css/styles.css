@@ -92,15 +92,16 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   display: flex;
-  padding: 24px 0;
   gap: 40px;
 }
 
 .menu-list-link {
   color: #2e2f42;
   text-decoration: none;
-
   display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
 }
 
 .menu-list-link:hover {
