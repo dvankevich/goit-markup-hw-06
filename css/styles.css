@@ -212,13 +212,7 @@ img {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
-.s-two-list-item-icon {
-  display: block;
-  max-width: 100%;
-  margin: 0 auto;
-  width: 60px;
-  height: 64px;
-}
+.s-two-list-item-icon {}
 
 .s-two-list-item-header {
   font-weight: 500;
