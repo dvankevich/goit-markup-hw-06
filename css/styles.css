@@ -81,6 +81,7 @@ img {
   color: #4d5ae5;
   text-decoration: none;
   margin-right: 76px;
+  margin-left: 156px;
 }
 
 .logo-part-two {
@@ -122,7 +123,7 @@ img {
   line-height: 150%;
   letter-spacing: 0.02em;
   display: flex;
-  margin-left: auto;
+  margin-left: 156px;
 }
 
 .address-list {
@@ -146,15 +147,17 @@ img {
 
 /* --- section 1 --- */
 .s-one {
+  display: block;
+  align-items: center;
   background-color: #2e2f42;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)),
-    url(../images/people-office-min.png);
+    url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 1440px;
-  padding: 188px 0;
+  max-width: 1440px;
+  height: 600px;
 }
 
 .s-one-header {
@@ -166,6 +169,7 @@ img {
   color: #fff;
   max-width: 496px;
   margin: 0 auto 48px;
+  padding-top: 188px;
 }
 
 .s-one-button {
@@ -184,6 +188,7 @@ img {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   display: block;
   margin: 0 auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .s-one-button:hover {
