@@ -46,16 +46,24 @@ img {
   overflow: hidden;
 }
 
-.header {
-  border-bottom: 1px solid #e7e9fc;
-  display: flex;
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
-.top-line {
+.header {
+  display: flex;
+  border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
+  background: #fff;
+}
+
+.header-container {
   display: flex;
   align-items: center;
-  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
-  background: #fff;
 }
 
 .header-navigation {
@@ -63,11 +71,7 @@ img {
   align-items: center;
 }
 
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
+
 
 /* --- Header --- */
 /* LOGO */
@@ -81,7 +85,6 @@ img {
   color: #4d5ae5;
   text-decoration: none;
   margin-right: 76px;
-  margin-left: 156px;
 }
 
 .logo-part-two {
@@ -104,7 +107,25 @@ img {
   display: block;
   padding-top: 24px;
   padding-bottom: 24px;
+  position: relative;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+}
+
+.active-link::after {
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+
+}
+
+.active-link {
+  color: #404bbf;
 }
 
 .menu-list-link:hover {
@@ -123,18 +144,22 @@ img {
   line-height: 150%;
   letter-spacing: 0.02em;
   display: flex;
-  margin-left: 156px;
+  margin-left: auto;
+
 }
 
 .address-list {
   display: flex;
   gap: 40px;
   padding: 24px 0;
+
 }
 
 .address-link {
+  display: inline-block;
   color: #434455;
   text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-link:hover {
@@ -157,7 +182,8 @@ img {
   background-position: center;
   background-size: cover;
   max-width: 1440px;
-  height: 600px;
+  margin: 0 auto;
+  padding: 188px 472px;
 }
 
 .s-one-header {
@@ -168,8 +194,6 @@ img {
   text-align: center;
   color: #fff;
   max-width: 496px;
-  margin: 0 auto 48px;
-  padding-top: 188px;
 }
 
 .s-one-button {
