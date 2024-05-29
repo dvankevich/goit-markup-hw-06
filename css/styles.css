@@ -203,7 +203,6 @@ img {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
-  transition-property: background-color;
   cursor: pointer;
   display: block;
   min-width: 169px;
