@@ -197,13 +197,13 @@ img {
 }
 
 .s-one-button {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+  transition-property: background-color;
   cursor: pointer;
   display: block;
   min-width: 169px;
@@ -212,6 +212,7 @@ img {
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   margin: 0 auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .s-one-button:hover {
@@ -389,8 +390,11 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.s-four-list-item:hover .s-four-list-item-overlay-text {
+.s-four-list-item:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.s-four-list-item:hover .s-four-list-item-overlay-text {
   transform: translateY(0%);
 }
 
