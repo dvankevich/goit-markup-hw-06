@@ -441,6 +441,9 @@ img {
 .s-footer {
   background-color: #2e2f42;
   padding: 100px 0;
+}
+
+.s-footer-container {
   display: flex;
   align-items: baseline;
 }
@@ -472,7 +475,8 @@ img {
 }
 
 .s-footer-link-and-text {
-  display: flex;
+  width: 264px;
+  height: 112px;
   margin-right: 120px;
 }
 
