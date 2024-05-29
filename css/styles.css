@@ -171,8 +171,6 @@ img {
 
 /* --- section 1 --- */
 .s-one {
-  display: block;
-  align-items: center;
   background-color: #2e2f42;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)),
@@ -183,6 +181,11 @@ img {
   max-width: 1440px;
   margin: 0 auto;
   padding: 188px 472px;
+}
+
+.s-one-wrapper {
+  display: block;
+  align-items: center;
 }
 
 .s-one-header {
@@ -205,6 +208,7 @@ img {
   background-color: #4d5ae5;
   cursor: pointer;
   display: block;
+  align-items: center;
   min-width: 169px;
   height: 56px;
   border: none;
