@@ -1,13 +1,9 @@
 # goit-markup-hw-04
 
-[https://dvankevich.github.io/goit-markup-hw-04/](https://dvankevich.github.io/goit-markup-hw-04/)
+[https://dvankevich.github.io/goit-markup-hw-05/](https://dvankevich.github.io/goit-markup-hw-05/)
 
-У четвертому домашньому завданні працюємо із:
-- фоновими зображеннями
-- векторною графікою
-- псевдоелементами
-- позиціонуванням
+Створення модального вікна
 
 ## Дедлайн
 
-31 трав. 2024 р., 23:45
+7 черв. 2024 р., 23:45
