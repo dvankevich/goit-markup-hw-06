@@ -585,8 +585,11 @@ img {
   min-width: 165px;
   height: 40px;
   background: #4d5ae5;
+  cursor: pointer;
+  border: none;
 }
 
 .s-subscribe-icon {
+  margin-left: 16px;
   fill: #fff;
 }
