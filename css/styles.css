@@ -548,18 +548,30 @@ img {
 .s-subscribe-label {}
 
 .s-subscribe-input {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2.0;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: transparent;
   border: 1px solid #fff;
   border-radius: 4px;
+  padding-left: 16px;
   width: 264px;
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.s-subscribe-input::placeholder {
+  color: #fff;
 }
 
 .s-subscribe-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
   color: #fff;
@@ -570,7 +582,7 @@ img {
   gap: 16px;
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   background: #4d5ae5;
 }
