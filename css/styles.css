@@ -489,7 +489,6 @@ img {
 }
 
 .s-footer-social-paragraph {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -531,7 +530,6 @@ img {
 }
 
 .s-subscribe-caption {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -548,7 +546,6 @@ img {
 .s-subscribe-label {}
 
 .s-subscribe-input {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 2.0;
@@ -568,7 +565,6 @@ img {
 }
 
 .s-subscribe-button {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -648,7 +644,6 @@ img {
 }
 
 .modal-caption {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -665,7 +660,6 @@ img {
 }
 
 .modal-label {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
