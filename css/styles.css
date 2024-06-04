@@ -774,9 +774,17 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  background-color: transparent;
+  margin-right: 8px;
 }
 
 .modal-checkbox:checked+.modal-checkbox-label .modal-checkbox-icon {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
+.modal-checkbox:checked+.modal-checkbox-label .modal-checkbox-label-box {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
