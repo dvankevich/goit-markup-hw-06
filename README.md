@@ -1,9 +1,9 @@
-# goit-markup-hw-05
+# goit-markup-hw-06
 
-[https://dvankevich.github.io/goit-markup-hw-05/](https://dvankevich.github.io/goit-markup-hw-05/)
+[https://dvankevich.github.io/goit-markup-hw-06/](https://dvankevich.github.io/goit-markup-hw-06/)
 
 Створення модального вікна
 
 ## Дедлайн
 
-7 черв. 2024 р., 23:45
+14 черв. 2024 р., 23:45
