@@ -52,6 +52,8 @@ img {
   padding: 0 15px;
 }
 
+/*
+
 .header {
   display: flex;
   border-bottom: 1px solid #e7e9fc;
@@ -73,8 +75,7 @@ img {
 
 
 
-/* --- Header --- */
-/* LOGO */
+
 .logo-link {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -91,7 +92,6 @@ img {
   color: #2e2f42;
 }
 
-/* navigation menu */
 .menu-list {
   font-weight: 500;
   font-size: 16px;
@@ -135,7 +135,6 @@ img {
   color: #404bbf;
 }
 
-/* address */
 .address-class {
   font-weight: 400;
   font-size: 16px;
@@ -169,7 +168,6 @@ img {
   color: #404bbf;
 }
 
-/* --- section 1 --- */
 .s-one {
   background-color: #2e2f42;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -223,7 +221,6 @@ img {
   background-color: #404bbf;
 }
 
-/* --- section 2 --- */
 .s-two {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -270,7 +267,6 @@ img {
   color: #434455;
 }
 
-/* --- section 3 --- */
 .s-three {
   background-color: #f4f4fd;
   padding-top: 120px;
@@ -360,7 +356,6 @@ img {
   fill: #f4f4fd;
 }
 
-/* --- section 4 --- */
 .s-four {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -441,7 +436,6 @@ img {
   color: #434455;
 }
 
-/* --- footer --- */
 .s-footer {
   background-color: #2e2f42;
   padding: 100px 0;
@@ -820,5 +814,6 @@ img {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
+
+*/
