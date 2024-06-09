@@ -27,7 +27,11 @@ a {
   color: inherit;
 }
 
-/* ------------------------------- */
+button {
+  font-family: inherit;
+  color: currentColor;
+}
+
 img {
   display: block;
 }
@@ -56,7 +60,7 @@ img {
   }
 
   .header {
-    display: flex;
+    display: block;
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
@@ -65,6 +69,7 @@ img {
   .header-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
 
   .menu-list,
@@ -94,6 +99,18 @@ img {
     color: #2e2f42;
   }
 
+  .h-menu-button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .h-menu-icon {
+    fill: #2f2f37;
+  }
 }
 
 /* temporary disable classes with non-existent media type */
