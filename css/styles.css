@@ -52,7 +52,7 @@ img {
 
 /* mobile first */
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .container {
     max-width: 320px;
     margin: 0 auto;
@@ -116,13 +116,21 @@ img {
     background-color: #2e2f42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
-      url(../images/people-office.jpg);
+      url(../images/people-office-mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     max-width: 320px;
     margin: 0 auto;
     padding: 72px 52px;
+  }
+
+  @media (min-resolution: 192dpi) {
+    .s-one {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)),
+        url(../images/people-office-mobile@2x.jpg);
+    }
   }
 
   .s-one-wrapper {
@@ -297,11 +305,17 @@ img {
   fill: #f4f4fd;
 }
 
+/* --- styles for tablet --- */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
 /* ------------------------------------------------------- */
 
-/* temporary disable classes with non-existent media type */
-/* tip via https: //kiwix.ounapuu.ee/content/stackoverflow.com_en_all_2023-11/questions/8459988/css-nested-comments */
-@media DISABLED {
+/* --- styles for desktop --- */
+@media screen and (min-width: 1158px) {
 
   .container {
     width: 1158px;
@@ -345,6 +359,11 @@ img {
 
   .logo-part-two {
     color: #2e2f42;
+  }
+
+  .h-menu-button,
+  .h-menu-icon {
+    display: none;
   }
 
   .menu-list {
@@ -434,6 +453,14 @@ img {
     max-width: 1440px;
     margin: 0 auto;
     padding: 188px 472px;
+  }
+
+  @media (min-resolution: 192dpi) {
+    .s-one {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)),
+        url(../images/people-office@2x.jpg);
+    }
   }
 
   .s-one-wrapper {
