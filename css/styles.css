@@ -244,6 +244,12 @@ img {
   padding: 32px 16px;
 }
 
+.s-three-img {
+  display: block;
+  width: 264px;
+  height: 260px;
+}
+
 .s-three-list-item-header {
   font-weight: 500;
   font-size: 20px;
@@ -787,6 +793,7 @@ img {
   .container {
     max-width: 768px;
   }
+
 }
 
 /* ------------------------------------------------------- */
