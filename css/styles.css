@@ -262,7 +262,6 @@ img {
 
 .s-one-wrapper {
   display: block;
-  align-items: center;
 }
 
 .s-one-header {
@@ -1109,6 +1108,141 @@ img {
     margin-bottom: 0;
   }
 
+}
+
+/* --- Dsktop --- */
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .logo-link {
+    margin-right: 76px;
+  }
+
+  .address-list {
+    flex-direction: row;
+    gap: 40px;
+    padding: 24px 0;
+  }
+
+  .s-one {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+      url(../images/people-office.jpg);
+    max-width: 1440px;
+    padding: 188px 472px;
+  }
+
+  @media (min-resolution: 192dpi) {
+    .s-one {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)),
+        url(../images/people-office@2x.jpg);
+    }
+  }
+
+  .s-one-header {
+    margin: 0 auto 48px;
+  }
+
+  .s-two {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .s-two-list {
+    flex-wrap: nowrap;
+  }
+
+  .s-two-list-item {
+    margin-bottom: 0;
+    flex-basis: calc((100% - 3 * 24px) / 4);
+  }
+
+  .s-two-list-item-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background: #f4f4fd;
+    margin-bottom: 8px;
+  }
+
+  .s-two-list-item-header {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  .s-two-list-item-text {
+    font-weight: 500;
+  }
+
+  .s-three {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .s-three-list {
+    gap: 24px;
+  }
+
+  .s-three-card-content {
+    padding: 32px 0;
+  }
+
+  .s-four {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .s-four-list {
+    column-gap: 24px;
+    row-gap: 48px;
+  }
+
+  .s-four-list-item {
+    width: calc((100% - 48px) / 3);
+  }
+
+  .s-four-list-item-image {
+    width: 360px;
+    height: 300px;
+  }
+
+  .s-footer {
+    padding: 100px 0;
+  }
+
+  .s-footer-container {
+    align-items: baseline;
+    gap: 0 0;
+  }
+
+  .s-footer-link-and-text {
+    width: 264px;
+    height: 112px;
+    margin-right: 120px;
+  }
+
+  .s-footer-social-paragraph {
+    text-align: left;
+  }
+
+  .s-subscribe {
+    margin-left: 80px;
+  }
+
+  .s-subscribe-input {
+    width: 264px;
+  }
 
 }
 
