@@ -1086,6 +1086,30 @@ img {
     gap: 72px 24px;
   }
 
+  .s-footer-link-and-text {
+    display: block;
+  }
+
+  .s-footer-text {
+    width: 264px;
+    height: 112px;
+  }
+
+  .s-subscribe {
+    align-items: start;
+  }
+
+  .s-subscribe-form {
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  .s-subscribe-input {
+    margin-right: 24px;
+    margin-bottom: 0;
+  }
+
+
 }
 
 /* ------------------------------------------------------- */
