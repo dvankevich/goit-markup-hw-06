@@ -930,6 +930,10 @@ img {
     display: none;
   }
 
+  .logo-link {
+    margin-right: 80px;
+  }
+
   .menu-list {
     font-weight: 500;
     font-size: 16px;
@@ -990,8 +994,6 @@ img {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    padding: 16px 0;
-
   }
 
   .address-link {
