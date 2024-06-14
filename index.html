@@ -107,7 +107,7 @@
     <section class="s-one">
       <div class="s-one-wrapper">
         <h1 class="s-one-header">Effective Solutions for Your Business</h1>
-        <button class="s-one-button" type="button">Order Service</button>
+        <button class="s-one-button" type="button" open-modal>Order Service</button>
       </div>
     </section>
     <!-- section 2 -->
@@ -538,9 +538,9 @@
   </footer>
   <!-- modal window -->
   <!-- add is-open class to next div for open modal window -->
-  <div class="modal-overlay is-open">
+  <div class="modal-overlay" modal>
     <div class="modal">
-      <button class="modal-close-button" type="button">
+      <button class="modal-close-button" type="button" close>
         <svg class="modal-close-icon" width="8" height="8">
           <use href="./images/icons.svg#icon-close"></use>
         </svg>
@@ -603,6 +603,7 @@
     </div>
 
   </div>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
