@@ -1250,6 +1250,7 @@ img {
   .s-footer-container {
     align-items: baseline;
     gap: 0 0;
+    width: auto;
   }
 
   .s-footer-link-and-text {
