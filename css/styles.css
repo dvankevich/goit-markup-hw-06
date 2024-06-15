@@ -1203,12 +1203,12 @@ img {
   .s-two-list-item-header {
     font-weight: 500;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
     line-height: 1.2;
   }
 
   .s-two-list-item-text {
-    font-weight: 500;
+    font-weight: 400;
   }
 
   .s-three {
