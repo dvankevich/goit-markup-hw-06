@@ -1160,7 +1160,7 @@ img {
         rgba(46, 47, 66, 0.7)),
       url(../images/people-office.jpg);
     max-width: 1440px;
-    padding: 188px 472px;
+    padding: 188px 0;
   }
 
   @media (min-resolution: 192dpi) {
