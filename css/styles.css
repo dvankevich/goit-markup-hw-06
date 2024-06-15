@@ -1028,7 +1028,7 @@ img {
         rgba(46, 47, 66, 0.7)),
       url(../images/people-office-tablet.jpg);
     max-width: 768px;
-    padding: 112px 136px;
+    padding: 112px 0;
   }
 
   @media (min-resolution: 192dpi) {
@@ -1039,9 +1039,16 @@ img {
     }
   }
 
+  .s-one-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .s-one-header {
     font-size: 56px;
     line-height: 1.07;
+    margin: 0 0 72px 0;
   }
 
   .s-two {
