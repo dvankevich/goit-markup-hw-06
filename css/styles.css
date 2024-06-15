@@ -1096,7 +1096,6 @@ img {
   .s-footer {
     padding-top: 96px;
     padding-bottom: 96px;
-    padding-left: 108px;
   }
 
   .s-footer-container {
@@ -1104,6 +1103,7 @@ img {
     flex-wrap: wrap;
     align-items: flex-start;
     gap: 72px 24px;
+    width: 584px;
   }
 
   .s-footer-link-and-text {
