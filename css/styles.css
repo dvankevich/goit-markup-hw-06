@@ -1059,11 +1059,12 @@ img {
   .s-two-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 72px 24px;
   }
 
   .s-two-list-item {
-    flex-basis: calc((100% - 24px) / 2);
+    width: calc((100% - 24px) / 2);
+    margin: 0;
   }
 
   .s-two-list-item-header {
