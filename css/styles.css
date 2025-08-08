@@ -735,7 +735,6 @@ img {
   left: 50%;
 
   width: 288px;
-  /* min-height: 623px; */
 
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
@@ -791,9 +790,6 @@ img {
 }
 
 .label-wrapper {
-  /* display: flex;
-  flex-direction: column;
-  gap: 4px; */
   display: block;
   margin-bottom: 8px;
 }
@@ -988,6 +984,7 @@ img {
     }
   }
 
+  .burger-menu-button,
   .burger-menu {
     display: none;
   }
